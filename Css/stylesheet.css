@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    background-size: cover;
+    background-image: url(img/gradiente-tendencia-cover.png);
+}
+
+.wrapper {
+    width: 800px;
+    display: flex;
+}
+
+.phone {
+    align-items: center;
+    display: flex;
+    width: 25%;
+}
+
+.img {
+    padding-top: 60px;
+    width: 300px;
+}
+
+.continue {
+    width: 100%;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid lightgrey;
+}
+
+.group1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 250px;
+    border: 1px solid lightgrey;
+}
+
+.instagram-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.profile-photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.instagram-login {
+    text-decoration: none;
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 2px 8px 2px 8px;
+    border-radius: 5px;
+}
+
+.not-account {
+    color: rgb(36, 35, 35);
+    margin: 10px 0 5px 0;
+}
+
+.link-blue {
+    color: #0095f6;
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+.download img {
+    flex-direction: row;
+    width: 120px;
+    height: 40px;
+}
